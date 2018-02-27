@@ -1,0 +1,53 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="home">Home</a>
+  </li>
+  <li class="breadcrumb-item">
+    Contact
+  </li>
+</ol>
+<div class="jumbotron">
+  <form name="sentMessage" id="contactForm" novalidate="">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="name-input">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" required="" data-validation-required-message="Please enter your name."
+              aria-invalid="false">
+            <p class="help-block text-danger"></p>
+            <span>Name *</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="email-input">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address."
+              aria-invalid="false">
+            <p class="help-block text-danger"></p>
+            <span>Email *</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="textarea-input">
+          <div class="form-group">
+            <textarea class="form-control" id="message" required="" data-validation-required-message="Please write your message."></textarea>
+            <p class="help-block text-danger"></p>
+            <span>Message *</span>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="col-lg-12 text-center">
+        <div id="success"></div>
+        <p>
+          <a class="btn btn-primary btn-md" role="button">Send Message</a>
+        </p>
+      </div>
+    </div>
+  </form>
+</div>
