@@ -30,6 +30,7 @@ import { BodyComponent } from './body/body.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RoutingModule,
     NgbModule.forRoot()
   ],
