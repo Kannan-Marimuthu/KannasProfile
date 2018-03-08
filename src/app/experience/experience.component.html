@@ -6,9 +6,8 @@
     Experience
   </li>
 </ol>
-
 <div class="jumbotron">
-  <div *ngFor="let experience of experiences">
+  <div *ngFor="let experience of experiences" (click)="onSelect(experience)">
     {{experience.id}} - {{experience.companyName}} - {{experience.clientName}}
     <div class="card border-primary mb-3">
       <div class="card-header">{{experience.role}}</div>
@@ -19,3 +18,5 @@
     </div>
   </div>
 </div>
+
+<app-modal [parentExperience]="experience"></app-modal>

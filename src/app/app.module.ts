@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BodyComponent } from './body/body.component';
     ContactComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,8 @@ export class ContactComponent implements OnInit {
   model = new Contact(1, 'Dr IQ', 'test@g.com', 'Chuck Overstreet');
   submitted = false;
 
-  onSubmit() { this.submitted = true; }
+  onSubmit() { this.submitted = true; 
+  }
 
   constructor() { }
 

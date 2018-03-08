@@ -6,6 +6,7 @@
     Contact
   </li>
 </ol>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="jumbotron">
   <form name="sentMessage" #contactForm="ngForm" id="contactForm" (ngSubmit)="onSubmit()">
     <div class="row">
@@ -41,6 +42,7 @@
           </div>
         </div>
       </div>
+      <div class="g-recaptcha" data-sitekey="6Le8CUsUAAAAAOhuSNXay9Ad6UXLmED7zQRU8zYI"></div>
       <div class="clearfix"></div>
       <div class="col-lg-12 text-center">
         <p class="lead">
